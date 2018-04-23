@@ -1,0 +1,26 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #262626;
+  color: #FFFFFF; }
+  body a {
+    transition: opacity 0.37s; }
+    body a:hover {
+      opacity: 0.5; }
+
+section.social {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+  section.social a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 4em; }
+    section.social a + a {
+      margin-left: 0.75em; }
+
+/*# sourceMappingURL=styles.css.map */
